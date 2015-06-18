@@ -1,0 +1,265 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose readDependencies loading dependencies from c:\Users\Louisa\fielddbhome\mytodo\package.json
+5 warn package.json mytodo@0.0.0 No license field.
+6 verbose install where, deps [ 'c:\\Users\\Louisa\\fielddbhome\\mytodo',
+6 verbose install   [ 'grunt',
+6 verbose install     'grunt-autoprefixer',
+6 verbose install     'grunt-concurrent',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-htmlmin',
+6 verbose install     'grunt-contrib-imagemin',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-filerev',
+6 verbose install     'grunt-google-cdn',
+6 verbose install     'grunt-karma',
+6 verbose install     'grunt-newer',
+6 verbose install     'grunt-ng-annotate',
+6 verbose install     'grunt-svgmin',
+6 verbose install     'grunt-usemin',
+6 verbose install     'grunt-wiredep',
+6 verbose install     'jshint-stylish',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-phantomjs-launcher',
+6 verbose install     'load-grunt-tasks',
+6 verbose install     'time-grunt' ] ]
+7 verbose install where, peers [ 'c:\\Users\\Louisa\\fielddbhome\\mytodo', [] ]
+8 verbose installManyTop reading for lifecycle c:\Users\Louisa\fielddbhome\mytodo\package.json
+9 info preinstall mytodo@0.0.0
+10 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt\package.json
+11 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-autoprefixer\package.json
+12 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-concurrent\package.json
+13 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-clean\package.json
+14 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-concat\package.json
+15 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-connect\package.json
+16 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-copy\package.json
+17 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-cssmin\package.json
+18 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-htmlmin\package.json
+19 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-imagemin\package.json
+20 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-jshint\package.json
+21 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-uglify\package.json
+22 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-watch\package.json
+23 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-filerev\package.json
+24 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-google-cdn\package.json
+25 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-karma\package.json
+26 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-newer\package.json
+27 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-ng-annotate\package.json
+28 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-svgmin\package.json
+29 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-usemin\package.json
+30 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-wiredep\package.json
+31 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\jasmine-core\package.json
+32 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\jshint-stylish\package.json
+33 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\karma\package.json
+34 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\karma-jasmine\package.json
+35 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\karma-phantomjs-launcher\package.json
+36 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\load-grunt-tasks\package.json
+37 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\phantomjs\package.json
+38 verbose installManyTop reading scoped package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\time-grunt\package.json
+39 info package.json grunt@0.4.5 No license field.
+40 info package.json grunt-contrib-concat@0.5.1 No license field.
+41 info package.json grunt-contrib-watch@0.6.1 No license field.
+42 info package.json phantomjs@1.9.17 No license field.
+43 info package.json grunt-contrib-clean@0.6.0 No license field.
+44 info package.json grunt-contrib-connect@0.9.0 No license field.
+45 info package.json grunt-contrib-copy@0.7.0 No license field.
+46 info package.json grunt-contrib-cssmin@0.12.3 No license field.
+47 info package.json grunt-contrib-htmlmin@0.4.0 No license field.
+48 info package.json grunt-contrib-imagemin@0.9.4 No license field.
+49 info package.json grunt-contrib-jshint@0.11.2 No license field.
+50 info package.json grunt-contrib-uglify@0.7.0 No license field.
+51 info package.json grunt-google-cdn@0.4.3 license should be a valid SPDX license expression
+52 info package.json grunt-filerev@2.3.1 license should be a valid SPDX license expression
+53 info package.json grunt-svgmin@2.0.1 No license field.
+54 info package.json grunt-wiredep@2.0.0 No license field.
+55 verbose readDependencies loading dependencies from c:\Users\Louisa\fielddbhome\mytodo\package.json
+56 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt\package.json
+57 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-autoprefixer\package.json
+58 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-concurrent\package.json
+59 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-clean\package.json
+60 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-concat\package.json
+61 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-connect\package.json
+62 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-copy\package.json
+63 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-cssmin\package.json
+64 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-htmlmin\package.json
+65 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-imagemin\package.json
+66 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-jshint\package.json
+67 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-uglify\package.json
+68 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-contrib-watch\package.json
+69 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-filerev\package.json
+70 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-google-cdn\package.json
+71 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-karma\package.json
+72 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-newer\package.json
+73 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-ng-annotate\package.json
+74 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-svgmin\package.json
+75 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-usemin\package.json
+76 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\grunt-wiredep\package.json
+77 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\jasmine-core\package.json
+78 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\jshint-stylish\package.json
+79 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\karma\package.json
+80 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\karma-jasmine\package.json
+81 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\karma-phantomjs-launcher\package.json
+82 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\load-grunt-tasks\package.json
+83 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\phantomjs\package.json
+84 verbose targetResolver reading package data from c:\Users\Louisa\fielddbhome\mytodo\node_modules\time-grunt\package.json
+85 verbose already installed skipping grunt-contrib-jshint@^0.11.0 c:\Users\Louisa\fielddbhome\mytodo
+86 verbose already installed skipping grunt-contrib-uglify@^0.7.0 c:\Users\Louisa\fielddbhome\mytodo
+87 verbose already installed skipping grunt-contrib-watch@^0.6.1 c:\Users\Louisa\fielddbhome\mytodo
+88 verbose already installed skipping grunt-filerev@^2.1.2 c:\Users\Louisa\fielddbhome\mytodo
+89 verbose already installed skipping grunt-google-cdn@^0.4.3 c:\Users\Louisa\fielddbhome\mytodo
+90 verbose already installed skipping grunt-karma@* c:\Users\Louisa\fielddbhome\mytodo
+91 verbose already installed skipping grunt-newer@^1.1.0 c:\Users\Louisa\fielddbhome\mytodo
+92 verbose already installed skipping grunt-ng-annotate@^0.9.2 c:\Users\Louisa\fielddbhome\mytodo
+93 verbose already installed skipping grunt-svgmin@^2.0.0 c:\Users\Louisa\fielddbhome\mytodo
+94 verbose already installed skipping grunt-usemin@^3.0.0 c:\Users\Louisa\fielddbhome\mytodo
+95 verbose already installed skipping grunt-wiredep@^2.0.0 c:\Users\Louisa\fielddbhome\mytodo
+96 verbose already installed skipping jshint-stylish@^1.0.0 c:\Users\Louisa\fielddbhome\mytodo
+97 verbose already installed skipping karma-jasmine@* c:\Users\Louisa\fielddbhome\mytodo
+98 verbose already installed skipping karma-phantomjs-launcher@* c:\Users\Louisa\fielddbhome\mytodo
+99 verbose already installed skipping load-grunt-tasks@^3.1.0 c:\Users\Louisa\fielddbhome\mytodo
+100 verbose already installed skipping time-grunt@^1.0.0 c:\Users\Louisa\fielddbhome\mytodo
+101 verbose already installed skipping grunt@^0.4.5 c:\Users\Louisa\fielddbhome\mytodo
+102 verbose already installed skipping grunt-autoprefixer@^2.0.0 c:\Users\Louisa\fielddbhome\mytodo
+103 verbose already installed skipping grunt-concurrent@^1.0.0 c:\Users\Louisa\fielddbhome\mytodo
+104 verbose already installed skipping grunt-contrib-clean@^0.6.0 c:\Users\Louisa\fielddbhome\mytodo
+105 verbose already installed skipping grunt-contrib-concat@^0.5.0 c:\Users\Louisa\fielddbhome\mytodo
+106 verbose already installed skipping grunt-contrib-connect@^0.9.0 c:\Users\Louisa\fielddbhome\mytodo
+107 verbose already installed skipping grunt-contrib-copy@^0.7.0 c:\Users\Louisa\fielddbhome\mytodo
+108 verbose already installed skipping grunt-contrib-cssmin@^0.12.0 c:\Users\Louisa\fielddbhome\mytodo
+109 verbose already installed skipping grunt-contrib-htmlmin@^0.4.0 c:\Users\Louisa\fielddbhome\mytodo
+110 verbose already installed skipping grunt-contrib-imagemin@^0.9.2 c:\Users\Louisa\fielddbhome\mytodo
+111 silly install resolved []
+112 info build c:\Users\Louisa\fielddbhome\mytodo
+113 info linkStuff mytodo@0.0.0
+114 silly linkStuff mytodo@0.0.0 has c:\Users\Louisa\fielddbhome as its parent node_modules
+115 verbose linkBins mytodo@0.0.0
+116 verbose linkMans mytodo@0.0.0
+117 verbose rebuildBundles mytodo@0.0.0
+118 verbose rebuildBundles [ 'grunt',
+118 verbose rebuildBundles   'grunt-autoprefixer',
+118 verbose rebuildBundles   'grunt-concurrent',
+118 verbose rebuildBundles   'grunt-contrib-clean',
+118 verbose rebuildBundles   'grunt-contrib-concat',
+118 verbose rebuildBundles   'grunt-contrib-connect',
+118 verbose rebuildBundles   'grunt-contrib-copy',
+118 verbose rebuildBundles   'grunt-contrib-cssmin',
+118 verbose rebuildBundles   'grunt-contrib-htmlmin',
+118 verbose rebuildBundles   'grunt-contrib-imagemin',
+118 verbose rebuildBundles   'grunt-contrib-jshint',
+118 verbose rebuildBundles   'grunt-contrib-uglify',
+118 verbose rebuildBundles   'grunt-contrib-watch',
+118 verbose rebuildBundles   'grunt-filerev',
+118 verbose rebuildBundles   'grunt-google-cdn',
+118 verbose rebuildBundles   'grunt-karma',
+118 verbose rebuildBundles   'grunt-newer',
+118 verbose rebuildBundles   'grunt-ng-annotate',
+118 verbose rebuildBundles   'grunt-svgmin',
+118 verbose rebuildBundles   'grunt-usemin',
+118 verbose rebuildBundles   'grunt-wiredep',
+118 verbose rebuildBundles   'jasmine-core',
+118 verbose rebuildBundles   'jshint-stylish',
+118 verbose rebuildBundles   'karma',
+118 verbose rebuildBundles   'karma-jasmine',
+118 verbose rebuildBundles   'karma-phantomjs-launcher',
+118 verbose rebuildBundles   'load-grunt-tasks',
+118 verbose rebuildBundles   'phantomjs',
+118 verbose rebuildBundles   'time-grunt' ]
+119 verbose rebuild bundle c:\Users\Louisa\fielddbhome\mytodo\node_modules\jasmine-core
+120 info build c:\Users\Louisa\fielddbhome\mytodo\node_modules\jasmine-core
+121 info preinstall jasmine-core@2.3.4
+122 info linkStuff jasmine-core@2.3.4
+123 silly linkStuff jasmine-core@2.3.4 has c:\Users\Louisa\fielddbhome\mytodo\node_modules as its parent node_modules
+124 verbose linkBins jasmine-core@2.3.4
+125 verbose linkMans jasmine-core@2.3.4
+126 verbose rebuildBundles jasmine-core@2.3.4
+127 info install jasmine-core@2.3.4
+128 info postinstall jasmine-core@2.3.4
+129 verbose rebuild bundle c:\Users\Louisa\fielddbhome\mytodo\node_modules\karma
+130 info build c:\Users\Louisa\fielddbhome\mytodo\node_modules\karma
+131 info preinstall karma@0.12.36
+132 info linkStuff karma@0.12.36
+133 silly linkStuff karma@0.12.36 has c:\Users\Louisa\fielddbhome\mytodo\node_modules as its parent node_modules
+134 verbose linkBins karma@0.12.36
+135 verbose link bins [ { karma: './bin/karma' },
+135 verbose link bins   'c:\\Users\\Louisa\\fielddbhome\\mytodo\\node_modules\\.bin',
+135 verbose link bins   false ]
+136 verbose linkMans karma@0.12.36
+137 verbose rebuildBundles karma@0.12.36
+138 verbose rebuildBundles [ '.bin',
+138 verbose rebuildBundles   'chokidar',
+138 verbose rebuildBundles   'colors',
+138 verbose rebuildBundles   'connect',
+138 verbose rebuildBundles   'di',
+138 verbose rebuildBundles   'glob',
+138 verbose rebuildBundles   'graceful-fs',
+138 verbose rebuildBundles   'http-proxy',
+138 verbose rebuildBundles   'lodash',
+138 verbose rebuildBundles   'log4js',
+138 verbose rebuildBundles   'mime',
+138 verbose rebuildBundles   'minimatch',
+138 verbose rebuildBundles   'optimist',
+138 verbose rebuildBundles   'q',
+138 verbose rebuildBundles   'rimraf',
+138 verbose rebuildBundles   'socket.io',
+138 verbose rebuildBundles   'source-map',
+138 verbose rebuildBundles   'useragent' ]
+139 info install karma@0.12.36
+140 info postinstall karma@0.12.36
+141 verbose rebuild bundle c:\Users\Louisa\fielddbhome\mytodo\node_modules\phantomjs
+142 info build c:\Users\Louisa\fielddbhome\mytodo\node_modules\phantomjs
+143 info preinstall phantomjs@1.9.17
+144 info linkStuff phantomjs@1.9.17
+145 silly linkStuff phantomjs@1.9.17 has c:\Users\Louisa\fielddbhome\mytodo\node_modules as its parent node_modules
+146 verbose linkBins phantomjs@1.9.17
+147 verbose link bins [ { phantomjs: './bin/phantomjs' },
+147 verbose link bins   'c:\\Users\\Louisa\\fielddbhome\\mytodo\\node_modules\\.bin',
+147 verbose link bins   false ]
+148 verbose linkMans phantomjs@1.9.17
+149 verbose rebuildBundles phantomjs@1.9.17
+150 verbose rebuildBundles [ '.bin',
+150 verbose rebuildBundles   'adm-zip',
+150 verbose rebuildBundles   'fs-extra',
+150 verbose rebuildBundles   'kew',
+150 verbose rebuildBundles   'npmconf',
+150 verbose rebuildBundles   'progress',
+150 verbose rebuildBundles   'request',
+150 verbose rebuildBundles   'request-progress',
+150 verbose rebuildBundles   'which' ]
+151 info install phantomjs@1.9.17
+152 verbose unsafe-perm in lifecycle true
+153 info phantomjs@1.9.17 Failed to exec install script
+154 verbose stack Error: phantomjs@1.9.17 install: `node install.js`
+154 verbose stack Exit status 1
+154 verbose stack     at EventEmitter.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+154 verbose stack     at EventEmitter.emit (events.js:110:17)
+154 verbose stack     at ChildProcess.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+154 verbose stack     at ChildProcess.emit (events.js:110:17)
+154 verbose stack     at maybeClose (child_process.js:1015:16)
+154 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+155 verbose pkgid phantomjs@1.9.17
+156 verbose cwd c:\Users\Louisa\fielddbhome\mytodo
+157 error Windows_NT 6.1.7601
+158 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+159 error node v0.12.4
+160 error npm  v2.10.1
+161 error code ELIFECYCLE
+162 error phantomjs@1.9.17 install: `node install.js`
+162 error Exit status 1
+163 error Failed at the phantomjs@1.9.17 install script 'node install.js'.
+163 error This is most likely a problem with the phantomjs package,
+163 error not with npm itself.
+163 error Tell the author that this fails on your system:
+163 error     node install.js
+163 error You can get their info via:
+163 error     npm owner ls phantomjs
+163 error There is likely additional logging output above.
+164 verbose exit [ 1, true ]
